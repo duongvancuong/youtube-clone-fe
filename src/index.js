@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 
-
 import './index.css';
 import App from './App';
 import Loader from './components/Loader';
 import { store, persistor } from './store';
-
 import * as serviceWorker from './serviceWorker';
 
 export const app = {
